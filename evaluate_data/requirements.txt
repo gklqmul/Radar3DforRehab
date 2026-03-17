@@ -55,7 +55,7 @@ Pillow==9.0.1
 platformdirs==4.3.6
 pooch==1.8.2
 propcache==0.2.0
-protobuf==3.19.4
+protobuf==5.29.6
 psutil==7.0.0
 py-cpuinfo==9.0.0
 pyasn1==0.6.1

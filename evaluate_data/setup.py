@@ -22,7 +22,7 @@ setup(
         'gdown',
         'easydict==1.9',
         'PyYAML==6.0',
-        'protobuf == 3.19.4',
+        'protobuf == 5.29.6',
         'tensorboard == 2.8.0',
         'termcolor == 1.1.0',
         'tqdm == 4.62.3',
