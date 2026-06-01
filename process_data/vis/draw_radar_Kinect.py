@@ -11,11 +11,10 @@ from plotly.offline import plot
 
 AZURE_BONES = [
     (0, 1), (1, 2), (2, 3), (3, 26),
-    (2, 4), (4, 5), (5, 6), (6, 7), (7, 8), (7, 9), (7, 10),
-    (2, 11), (11, 12), (12, 13), (13, 14), (14, 15), (14, 16), (14, 17),
+    (3, 4), (4, 5), (5, 6), (6, 7), (7, 8), (8, 9), (8, 10),
+    (3, 11), (11, 12), (12, 13), (13, 14), (14, 15), (15, 16), (15, 17),
     (0, 18), (18, 19), (19, 20), (20, 21),
-    (0, 22), (22, 23), (23, 24), (24, 25),
-    (3, 27), (27, 28), (28, 29), (27, 30), (30, 31),
+    (0, 22), (22, 23), (23, 24), (24, 25)
 ]
 
 
@@ -215,3 +214,9 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+#  python process_data/validation/draw_radar_Kinect.py \
+#   --action-dir dataset/dataset/env1/subjects/subject26/aligned/action16 \
+#   --frame 78 \
+#   --stack-radius 0 \
+#   --out process_data/validation/example_action16_frame078.html
