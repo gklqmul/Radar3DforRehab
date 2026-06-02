@@ -25,27 +25,28 @@ In this project, there are two main tools including producing data and using dat
 ``` bash
 
 +---evaluate_data
-|---| install_packages.sh
-|---| LICENSE
+|---| installpackages.sh
 |---| mm
 |---| requirements.txt
 |---| setup.py
-|---+---3DReha
+|---+---Reha
 |---|---+---dataset
 |---|---+---models
 |---|---\---session
 | |
-|---+---checkpoints
 |---\---configs
 |
-\---process_data
+|---process_data
 |---|main.py
 |
-+---additionalfiles  # some processing files for calibration
-+---class_files
-|
-+---pykinect_azure  # funciton for Azure Kinect
-\---utils  # read, save files, draw some plots and so on
+|---+---additionalfiles  # some processing files for calibration
+|---+---class_files
+|---+---pykinect_azure  # funciton for Azure Kinect
+|---+---utils  # read, save files, draw some plots and so on
+|---\---vis    # visualisation
+|---| LICENSE
+|---| readme.md
+\---vis_samples # some graph samples   
 ```
 
 If only need dataset and models, please jump to [Model Training and Evaluation](#model-training-and-evaluation).
