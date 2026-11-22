@@ -2,6 +2,6 @@
 __pycache__/
 *.py[cod]
 *.egg-info/
-dataset/
+/dataset/
 *.zip
 .DS_Store
